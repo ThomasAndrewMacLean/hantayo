@@ -11,6 +11,25 @@ export const HomePageWrapper = styled.div`
     'f g h i'
     'j l l m'
     'k l l n';
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'a'
+      'b'
+      'c'
+      'd'
+      'e'
+      'f'
+      'g'
+      'h'
+      'i'
+      'j'
+      'k'
+      'l'
+      'm'
+      'n';
+  }
   .box {
     background-color: lightgrey;
     min-height: 190px;
