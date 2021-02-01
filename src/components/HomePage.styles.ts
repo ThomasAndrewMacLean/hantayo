@@ -31,7 +31,7 @@ export const HomePageWrapper = styled.div`
       'n';
   }
   .box {
-    background-color: lightgrey;
+    background-color: #f3f3f3;
     min-height: 190px;
   }
   .a {
